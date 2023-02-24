@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 100%;
+    padding:0 50px;
+    height: 15vh;
+    margin: 0 auto;
+    background: #fff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+
+.logo{
+    width: 30%;
+}
+
+.logo span{
+    color: #f54a4b;
+}
+
+
+.navlinkComtainer{
+    display:flex;
+    width:60%;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.navLinks{
+    display: flex;
+    list-style-type:none ;
+}
+
+.navLinks a{
+    padding-right: 100px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav button{
+    padding:15px 20px;
+  border-color:#f54a4b;
+  outline: none;
+  border-radius:5px;
+  transition: 0.5s ease-in-out;
+}
+
+nav button:hover{
+background-color:#000;
+color: #fff;
+outline:none ;
+border:none ;
+}
+
+.homepage1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./photos/colleagues2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 16vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homepage1Content{
+    z-index:1;
+    color: #fff;
+}
+
+.homepage1Content :nth-child(2){
+    font-size: 100px;
+}
+
+.homepage1Content .button1{
+    padding:15px 25px;
+  outline: none;
+  border: none;
+  border-radius:5px;
+  transition: 0.5s ease-in-out;
+  margin-top: 50px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.homepage1Content .button1:hover{
+    background-color:#616161;
+    color: #fff;
+    }
+
+.homepage1Content .button2{
+    padding:15px 25px;
+    border: none;
+  outline: none;
+  border-radius:5px;
+  transition: 0.5s ease-in-out;
+  margin-top: 50px;
+  background-color: #616161;
+  color: #fff;
+}
+
+.homepage1Content .button2:hover{
+    background-color:#fff;
+    color: #616161;
+    }
+
+    .fa-arrow-left{
+        position:fixed ;
+        left:100px;
+       font-size: 100px;
+    }
